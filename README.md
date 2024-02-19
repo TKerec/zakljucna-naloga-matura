@@ -16,7 +16,7 @@ Delovanje aplikacije:
 
 2.3	Če izbere generiranje naključnih števil se vam bo odprl nov obrazec v katerem določite količino števil, najmanjšo vrednost, najvišjo vrednost. Po končani izbiri se bodo števila po izbranem kriteriju naključnoo generirala v polju "Prvotni seznam".
 
-2.4	Po izbiri števil, izberete na spustnem seznamu v levem zgornjem kotu željeni algoritem za urejanje. Po izbiri se bo urejanje takoj pričelo.
+2.4	Po izbiri števil, izberete na spustnem seznamu v levem zgornjem kotu željeni algoritem za urejanje (hitrosti urejanja so izpisane za average case). Po izbiri se bo urejanje takoj pričelo.
 
 2.5	Po končanem urejanju se v polju "Seznam po razvrščanju" pojavi seznam urejenih števil od najmanjšega do največjega števila, v polju "Čas razvrščanja", pa se pokaže čas, ki ga je algoritem porabil, da je razvrstil podatke.
 
