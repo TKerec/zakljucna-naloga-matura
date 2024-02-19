@@ -76,12 +76,13 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.algoritmiToolStripMenuItem,
             this.izhodToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(20, 60);
+            this.menuStrip1.Location = new System.Drawing.Point(27, 74);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1205, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1606, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -94,57 +95,58 @@
             this.urejanjeZNavadnimVstavljanjemToolStripMenuItem,
             this.hitroUrejanjeToolStripMenuItem});
             this.algoritmiToolStripMenuItem.Name = "algoritmiToolStripMenuItem";
-            this.algoritmiToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.algoritmiToolStripMenuItem.Size = new System.Drawing.Size(86, 26);
             this.algoritmiToolStripMenuItem.Text = "Algoritmi";
             // 
             // bubbleSortToolStripMenuItem
             // 
             this.bubbleSortToolStripMenuItem.Name = "bubbleSortToolStripMenuItem";
-            this.bubbleSortToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.bubbleSortToolStripMenuItem.Size = new System.Drawing.Size(313, 26);
             this.bubbleSortToolStripMenuItem.Text = "Mehurčno urejanje";
             this.bubbleSortToolStripMenuItem.Click += new System.EventHandler(this.bubbleSortToolStripMenuItem_Click);
             // 
             // shellSortToolStripMenuItem
             // 
             this.shellSortToolStripMenuItem.Name = "shellSortToolStripMenuItem";
-            this.shellSortToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.shellSortToolStripMenuItem.Size = new System.Drawing.Size(313, 26);
             this.shellSortToolStripMenuItem.Text = "Shellovo urejanje";
             this.shellSortToolStripMenuItem.Click += new System.EventHandler(this.shellSortToolStripMenuItem_Click);
             // 
             // urejanjeSKopicoToolStripMenuItem
             // 
             this.urejanjeSKopicoToolStripMenuItem.Name = "urejanjeSKopicoToolStripMenuItem";
-            this.urejanjeSKopicoToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.urejanjeSKopicoToolStripMenuItem.Size = new System.Drawing.Size(313, 26);
             this.urejanjeSKopicoToolStripMenuItem.Text = "Urejanje s kopico";
             this.urejanjeSKopicoToolStripMenuItem.Click += new System.EventHandler(this.UrejanjeSKopicoToolStripMenuItem_Click);
             // 
             // urejanjeZNavadnimVstavljanjemToolStripMenuItem
             // 
             this.urejanjeZNavadnimVstavljanjemToolStripMenuItem.Name = "urejanjeZNavadnimVstavljanjemToolStripMenuItem";
-            this.urejanjeZNavadnimVstavljanjemToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.urejanjeZNavadnimVstavljanjemToolStripMenuItem.Size = new System.Drawing.Size(313, 26);
             this.urejanjeZNavadnimVstavljanjemToolStripMenuItem.Text = "Urejanje z navadnim vstavljanjem";
             this.urejanjeZNavadnimVstavljanjemToolStripMenuItem.Click += new System.EventHandler(this.urejanjeZNavadnimVstavljanjemToolStripMenuItem_Click);
             // 
             // hitroUrejanjeToolStripMenuItem
             // 
             this.hitroUrejanjeToolStripMenuItem.Name = "hitroUrejanjeToolStripMenuItem";
-            this.hitroUrejanjeToolStripMenuItem.Size = new System.Drawing.Size(250, 22);
+            this.hitroUrejanjeToolStripMenuItem.Size = new System.Drawing.Size(313, 26);
             this.hitroUrejanjeToolStripMenuItem.Text = "Hitro urejanje";
             this.hitroUrejanjeToolStripMenuItem.Click += new System.EventHandler(this.HitroUrejanjeToolStripMenuItem_Click);
             // 
             // izhodToolStripMenuItem
             // 
             this.izhodToolStripMenuItem.Name = "izhodToolStripMenuItem";
-            this.izhodToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.izhodToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
             this.izhodToolStripMenuItem.Text = "Izhod";
             this.izhodToolStripMenuItem.Click += new System.EventHandler(this.izhodToolStripMenuItem_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(55, 117);
+            this.button1.Location = new System.Drawing.Point(73, 144);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(249, 35);
+            this.button1.Size = new System.Drawing.Size(332, 43);
             this.button1.TabIndex = 1;
             this.button1.Text = "Ročni vnos števil ";
             this.button1.UseVisualStyleBackColor = true;
@@ -153,9 +155,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(334, 117);
+            this.button2.Location = new System.Drawing.Point(445, 144);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(403, 35);
+            this.button2.Size = new System.Drawing.Size(537, 43);
             this.button2.TabIndex = 2;
             this.button2.Text = "Generiranje seznama naključnih števil";
             this.button2.UseVisualStyleBackColor = true;
@@ -164,19 +167,21 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(55, 207);
+            this.textBox1.Location = new System.Drawing.Point(73, 255);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(682, 221);
+            this.textBox1.Size = new System.Drawing.Size(908, 271);
             this.textBox1.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(51, 166);
+            this.label1.Location = new System.Drawing.Point(68, 204);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 24);
+            this.label1.Size = new System.Drawing.Size(237, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Prvotni seznam števil";
             // 
@@ -184,26 +189,29 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(51, 440);
+            this.label2.Location = new System.Drawing.Point(68, 542);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(206, 24);
+            this.label2.Size = new System.Drawing.Size(260, 29);
             this.label2.TabIndex = 5;
             this.label2.Text = "Seznam po razvrščanju";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(55, 485);
+            this.textBox2.Location = new System.Drawing.Point(73, 597);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(682, 209);
+            this.textBox2.Size = new System.Drawing.Size(908, 256);
             this.textBox2.TabIndex = 6;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(204, 720);
+            this.textBox3.Location = new System.Drawing.Point(272, 886);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.MaxLength = 32767000;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 7;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -211,18 +219,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(51, 720);
+            this.label3.Location = new System.Drawing.Point(68, 886);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 20);
+            this.label3.Size = new System.Drawing.Size(159, 25);
             this.label3.TabIndex = 8;
             this.label3.Text = "Čas razvrščanja:";
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(620, 165);
+            this.button3.Location = new System.Drawing.Point(827, 203);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 31);
+            this.button3.Size = new System.Drawing.Size(156, 38);
             this.button3.TabIndex = 9;
             this.button3.Text = "Počisti";
             this.button3.UseVisualStyleBackColor = true;
@@ -239,7 +249,8 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(843, 283);
+            this.chart1.Location = new System.Drawing.Point(1124, 348);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -251,47 +262,52 @@
             series2.Name = "RAM";
             this.chart1.Series.Add(series1);
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(334, 300);
+            this.chart1.Size = new System.Drawing.Size(445, 369);
             this.chart1.TabIndex = 10;
             // 
             // metroProgressBarCPU
             // 
-            this.metroProgressBarCPU.Location = new System.Drawing.Point(882, 173);
+            this.metroProgressBarCPU.Location = new System.Drawing.Point(1176, 213);
+            this.metroProgressBarCPU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroProgressBarCPU.Name = "metroProgressBarCPU";
-            this.metroProgressBarCPU.Size = new System.Drawing.Size(191, 23);
+            this.metroProgressBarCPU.Size = new System.Drawing.Size(255, 28);
             this.metroProgressBarCPU.TabIndex = 11;
             // 
             // metroProgressBarRAM
             // 
-            this.metroProgressBarRAM.Location = new System.Drawing.Point(882, 207);
+            this.metroProgressBarRAM.Location = new System.Drawing.Point(1176, 255);
+            this.metroProgressBarRAM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroProgressBarRAM.Name = "metroProgressBarRAM";
-            this.metroProgressBarRAM.Size = new System.Drawing.Size(191, 23);
+            this.metroProgressBarRAM.Size = new System.Drawing.Size(255, 28);
             this.metroProgressBarRAM.TabIndex = 12;
             // 
             // CV
             // 
             this.CV.AutoSize = true;
-            this.CV.Location = new System.Drawing.Point(840, 177);
+            this.CV.Location = new System.Drawing.Point(1120, 218);
+            this.CV.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CV.Name = "CV";
-            this.CV.Size = new System.Drawing.Size(38, 19);
+            this.CV.Size = new System.Drawing.Size(39, 20);
             this.CV.TabIndex = 13;
             this.CV.Text = "CPU:";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(840, 207);
+            this.metroLabel1.Location = new System.Drawing.Point(1120, 255);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(41, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(41, 20);
             this.metroLabel1.TabIndex = 14;
             this.metroLabel1.Text = "RAM:";
             // 
             // lblCPU
             // 
             this.lblCPU.AutoSize = true;
-            this.lblCPU.Location = new System.Drawing.Point(1110, 177);
+            this.lblCPU.Location = new System.Drawing.Point(1480, 218);
+            this.lblCPU.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCPU.Name = "lblCPU";
-            this.lblCPU.Size = new System.Drawing.Size(31, 19);
+            this.lblCPU.Size = new System.Drawing.Size(33, 20);
             this.lblCPU.TabIndex = 15;
             this.lblCPU.Text = "0 %";
             this.lblCPU.Click += new System.EventHandler(this.MetroLabel2_Click);
@@ -299,9 +315,10 @@
             // lblRAM
             // 
             this.lblRAM.AutoSize = true;
-            this.lblRAM.Location = new System.Drawing.Point(1110, 207);
+            this.lblRAM.Location = new System.Drawing.Point(1480, 255);
+            this.lblRAM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRAM.Name = "lblRAM";
-            this.lblRAM.Size = new System.Drawing.Size(31, 19);
+            this.lblRAM.Size = new System.Drawing.Size(33, 20);
             this.lblRAM.TabIndex = 16;
             this.lblRAM.Text = "0 %";
             // 
@@ -319,9 +336,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(879, 586);
+            this.label4.Location = new System.Drawing.Point(1172, 721);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(230, 13);
+            this.label4.Size = new System.Drawing.Size(290, 16);
             this.label4.TabIndex = 17;
             this.label4.Text = "Graf: Poraba moči procesorja in količine RAM-a";
             // 
@@ -329,18 +347,20 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(878, 635);
+            this.label5.Location = new System.Drawing.Point(1171, 782);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 22);
+            this.label5.Size = new System.Drawing.Size(212, 29);
             this.label5.TabIndex = 18;
             this.label5.Text = "Hitrosti algoritmov:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(879, 657);
+            this.label6.Location = new System.Drawing.Point(1172, 809);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(130, 13);
+            this.label6.Size = new System.Drawing.Size(158, 16);
             this.label6.TabIndex = 19;
             this.label6.Text = "Mehurčno urejanje: \tO(n2) ";
             this.label6.Click += new System.EventHandler(this.Label6_Click);
@@ -348,44 +368,48 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(879, 670);
+            this.label7.Location = new System.Drawing.Point(1172, 825);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(120, 13);
+            this.label7.Size = new System.Drawing.Size(149, 16);
             this.label7.TabIndex = 20;
             this.label7.Text = "Shellovo urejanje: O(n2)";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(879, 683);
+            this.label8.Location = new System.Drawing.Point(1172, 841);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(141, 13);
+            this.label8.Size = new System.Drawing.Size(175, 16);
             this.label8.TabIndex = 21;
             this.label8.Text = "Urejanje s kopico: O(n log n)";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(879, 696);
+            this.label9.Location = new System.Drawing.Point(1172, 857);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(196, 13);
+            this.label9.Size = new System.Drawing.Size(245, 16);
             this.label9.TabIndex = 22;
             this.label9.Text = "Urejanje z navadnim vstavljanjem: O(n2)";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(879, 709);
+            this.label10.Location = new System.Drawing.Point(1172, 873);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(121, 13);
+            this.label10.Size = new System.Drawing.Size(124, 16);
             this.label10.TabIndex = 23;
-            this.label10.Text = "Hitro urejanje: O(n log n)";
+            this.label10.Text = "Hitro urejanje: O(n2)";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1245, 778);
+            this.ClientSize = new System.Drawing.Size(1660, 958);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -413,7 +437,9 @@
             this.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Text = "Algoritmi za razvrščanje podatkov";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
