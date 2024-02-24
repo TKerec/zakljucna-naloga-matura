@@ -3,8 +3,7 @@ Algoritmi za urejanje podatkov
 1.	Opis
 To je program, ki ureja števila po velikosti s pomočjo različnih algoritmov za ureranje  (Mehurčno Urejanje, Shellovo Urejanje, Urejanje z navadnim vstavljanjem, Urejanje s kopico, Hitro Urejanje).
 
-2.	Delovanje
-Delovanje aplikacije:
+2.	Delovanje aplikacije:
 
 2.1	Izberite ročni vnos ali naključno generiranje števil. (Na desni strani imate graf porabe procesorske moči, količine pomnilnika in tabelo s hitrostmi algoritmov za vsak posamezen algoritem)
 
